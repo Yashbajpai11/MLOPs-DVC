@@ -6,8 +6,15 @@ data = {
     'Age': [22, 23, 22],  # Age column ki length sabhi rows ke liye match honi chahiye
     'City': ['New York', 'Los Angeles', 'Chicago']
 }
-
 df = pd.DataFrame(data)
+
+new_row_loc = {'name':'gf1','Age':24,'City':'city1'}
+df.loc[len(df.index)] = new_row_loc
+
+
+
+
+
 
 # Directory banana
 data_dir = 'data'

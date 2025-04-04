@@ -8,3 +8,6 @@ now we do 'dvc remote add -d myremote S3"
 next 'dvc add data/'
 again we do 'dvc add data/' (create data.dvc) then 'git add .gitignore data.dvc'
 now 'dvc commit' the 'dvc push'
+do a 'git add,commit,push' to mark this stage as a first version of data
+now make changes too mycode.py to append a new row in data , check changes via 'dvc status'
+again 'dvc commit' and then 'dvc push'
