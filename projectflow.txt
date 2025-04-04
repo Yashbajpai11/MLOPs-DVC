@@ -1,0 +1,3 @@
+create git repo and clone it in local.
+create code.py and code to it (it will save file to a new "data" folder)
+do a git add, commit , push before initilization DVC
