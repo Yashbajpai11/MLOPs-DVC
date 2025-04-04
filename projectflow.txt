@@ -6,3 +6,5 @@ now we do 'dvc init' (creates,dvcignore,.dvc)
 now do 'mkdir s3' (create a new s3 discinary)
 now we do 'dvc remote add -d myremote S3"
 next 'dvc add data/'
+again we do 'dvc add data/' (create data.dvc) then 'git add .gitignore data.dvc'
+now 'dvc commit' the 'dvc push'
