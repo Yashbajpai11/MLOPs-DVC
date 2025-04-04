@@ -13,3 +13,8 @@ now make changes too mycode.py to append a new row in data , check changes via '
 again 'dvc commit' and then 'dvc push'
 then git add , commit, push (we are saving v2 of our data ad this point)
 now repeat steps 
+
+
+git log --oneline
+git checkout <hash> , git checkout master
+dvc pull
